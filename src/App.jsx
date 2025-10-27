@@ -1,6 +1,7 @@
 import React from "react"
 import ClassBaseComponent from "./components/ClassBaseComponent"
 import FunctionBaseComponent from "./components/FunctionBaseComponent"
+import MapFunction from "./components/MapFunction"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         ✅Fragment is like an invisible wrapper in React — <br />
         ✅it groups elements without adding anything extra to the HTML.
       </p>
+      <MapFunction />
     </>
   )
 }
