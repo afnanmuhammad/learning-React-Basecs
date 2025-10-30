@@ -2,6 +2,7 @@ import React from "react"
 import ClassBaseComponent from "./components/ClassBaseComponent"
 import FunctionBaseComponent from "./components/FunctionBaseComponent"
 import MapFunction from "./components/MapFunction"
+import UseState from "./components/hooks/UseState"
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         ✅it groups elements without adding anything extra to the HTML.
       </p>
       <MapFunction />
+      <hr />
+      <UseState />
     </>
   )
 }

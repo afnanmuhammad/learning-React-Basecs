@@ -1,6 +1,12 @@
 import React from 'react'
 
 const Card = ({ props }) => {
+    //const Card = ({ title, description, def, example }) => { ****** destructuring in parameter
+
+    const { title, description, def, example } = props;
+    return (
+        <div>
+            {/*simple props */}
     //💡 3 method destructuring  const Card = ({title, description, def, example}) => {
 
     const { title, description, def, example } = props; // store in variable destructuring
@@ -15,11 +21,19 @@ const Card = ({ props }) => {
             🧩 Example</span> {' '} {props.example}</p> */}
 
 
+            <p><span style={{ color: 'blue', fontSize: '24px', textAlign: 'center' }}>🧩 Example</span> {' '} {props.example}</p>*/}
+
+
+            {/* destructuring store in variable */}
+            <h2>🧠 What are Props?</h2>
             {/* 💡 2 method  store in variable direct use props*/}
             <p>✅{def}</p>
             <p>✅{description}</p>
             <h1>💡 {title}</h1>
             <p>✅{def}</p>
+
+            <p><span style={{ color: 'blue', fontSize: '24px', textAlign: 'center' }}>🧩 Example</span> {' '} {example}</p>
+
             <p><span style={{ color: 'blue', fontSize: '24px', textAlign: 'center' }}>🧩 Example</span> {' '} {example}</p>
 
 

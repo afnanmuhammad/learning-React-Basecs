@@ -4,9 +4,9 @@ import Card from "./Card";
 
 const MapFunction = () => {
     const tableData = [
-        { id: 1, name: "Afnan", age: 22 },
-        { id: 2, name: "Talha", age: 23 },
-        { id: 3, name: "Kashif", age: 24 },
+        { id: 1, name: "Afnan", age: 23 },
+        { id: 2, name: "Talha", age: 25 },
+        { id: 3, name: "kashif", age: 24 },
     ];
 
     return (
