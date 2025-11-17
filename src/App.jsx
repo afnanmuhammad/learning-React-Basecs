@@ -3,6 +3,7 @@ import ClassBaseComponent from "./components/ClassBaseComponent"
 import FunctionBaseComponent from "./components/FunctionBaseComponent"
 import MapFunction from "./components/MapFunction"
 import UseState from "./components/hooks/UseState"
+import ShortsCir from "./components/ShortsCir"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <MapFunction />
       <hr />
       <UseState />
+      <ShortsCir />
     </>
   )
 }
