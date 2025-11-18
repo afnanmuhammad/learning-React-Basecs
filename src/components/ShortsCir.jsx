@@ -46,7 +46,7 @@ const ShortsCir = () => {
             <button onClick={() => setIsLoggedIn(!isLoggedIn)}>Login</button>
             <button onClick={() => setUser("Afnan Bangash")}>Set User </button>
             <button onClick={() => setUser("")}>Clear User </button>
-
+            <hr />
         </div>
     )
 }

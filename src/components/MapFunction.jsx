@@ -67,6 +67,7 @@ They work just like function parameters.`,
 `,
                 }}
             />
+            <hr />
         </div>
     );
 };
