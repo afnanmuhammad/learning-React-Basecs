@@ -4,6 +4,8 @@ import FunctionBaseComponent from "./components/FunctionBaseComponent"
 import MapFunction from "./components/MapFunction"
 import UseState from "./components/hooks/UseState"
 import ShortsCir from "./components/ShortsCir"
+import ControlComponent from "./components/controluncontrolcompo/ControlComponent"
+import UnControlComponent from "./components/controluncontrolcompo/UnControlComponent"
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
       <hr />
       <UseState />
       <ShortsCir />
+      <ControlComponent />
+      <UnControlComponent />
     </>
   )
 }
