@@ -6,7 +6,7 @@ import UseState from "./components/hooks/UseState"
 import ShortsCir from "./components/ShortsCir"
 import ControlComponent from "./components/controluncontrolcompo/ControlComponent"
 import UnControlComponent from "./components/controluncontrolcompo/UnControlComponent"
-
+import UseEffect from "./components/hooks/UseEffect"
 
 function App() {
 
@@ -29,6 +29,8 @@ function App() {
       <ShortsCir />
       <ControlComponent />
       <UnControlComponent />
+      <hr />
+      <UseEffect />
     </>
   )
 }
