@@ -7,10 +7,11 @@ const UseEffect = () => {
     useEffect(() => {
         console.log("UseEffect Called", count);
 
-        setInterval(() => {
+        const timer = setInterval(() => {
             const updatedDate = new Date();
             setDate(updatedDate.toLocaleTimeString());
         }, 1000);
+        return () => clearInterval(timer);
     }, [count])
     return (
         <div>
