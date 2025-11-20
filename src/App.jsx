@@ -7,6 +7,7 @@ import ShortsCir from "./components/ShortsCir"
 import ControlComponent from "./components/controluncontrolcompo/ControlComponent"
 import UnControlComponent from "./components/controluncontrolcompo/UnControlComponent"
 import UseEffect from "./components/hooks/UseEffect"
+import Apifetch from "./components/api/Apifetch"
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
       <UnControlComponent />
       <hr />
       <UseEffect />
+      <hr />
+      <Apifetch />
     </>
   )
 }
