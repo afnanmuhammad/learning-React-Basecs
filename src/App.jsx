@@ -7,6 +7,12 @@ import ShortsCir from "./components/ShortsCir"
 import ControlComponent from "./components/controluncontrolcompo/ControlComponent"
 import UnControlComponent from "./components/controluncontrolcompo/UnControlComponent"
 import UseEffect from "./components/hooks/UseEffect"
+<<<<<<< Updated upstream
+import Apifetch from "./components/api/Apifetch"
+=======
+import ChildComponent from "./components/ChildComponent"
+import { MyContext } from "./components/hooks/ContextApi"
+>>>>>>> Stashed changes
 
 function App() {
 
@@ -31,6 +37,24 @@ function App() {
       <UnControlComponent />
       <hr />
       <UseEffect />
+      <hr />
+<<<<<<< Updated upstream
+      <Apifetch />
+=======
+      <MyContext.Provider
+        value={
+          <div>
+            <h2>
+              Hello data from Context API
+            </h2>
+            <p>A feature in React that lets you share data between components without passing props every time.</p>
+          </div>
+
+        } >
+
+        <ChildComponent />
+      </MyContext.Provider >
+>>>>>>> Stashed changes
     </>
   )
 }
