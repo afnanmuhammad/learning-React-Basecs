@@ -7,12 +7,12 @@ import ShortsCir from "./components/ShortsCir"
 import ControlComponent from "./components/controluncontrolcompo/ControlComponent"
 import UnControlComponent from "./components/controluncontrolcompo/UnControlComponent"
 import UseEffect from "./components/hooks/UseEffect"
-<<<<<<< Updated upstream
 import Apifetch from "./components/api/Apifetch"
-=======
 import ChildComponent from "./components/ChildComponent"
 import { MyContext } from "./components/hooks/ContextApi"
->>>>>>> Stashed changes
+import CounterCoustomHook from "./components/CounterCoustomHook"
+import UseReducer from "./components/hooks/UseReducer"
+
 
 function App() {
 
@@ -38,9 +38,8 @@ function App() {
       <hr />
       <UseEffect />
       <hr />
-<<<<<<< Updated upstream
       <Apifetch />
-=======
+      <hr />
       <MyContext.Provider
         value={
           <div>
@@ -54,7 +53,10 @@ function App() {
 
         <ChildComponent />
       </MyContext.Provider >
->>>>>>> Stashed changes
+      <hr />
+      <CounterCoustomHook />
+      <hr />
+      <UseReducer />
     </>
   )
 }
